@@ -27,7 +27,7 @@ const partnerItems = [
 
 export default function Partners() {
   return (
-    <div className="container mx-auto p-16 space-y-10">
+    <div id="partners" className="container mx-auto p-16 space-y-10">
       <Text className="text-center" size="title">
         Partners
       </Text>

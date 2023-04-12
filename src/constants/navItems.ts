@@ -1,22 +1,22 @@
-export   const navItems = [
+export const navItems = [
   {
-    name: 'Home',
-    href: '#home',
+    name: "Home",
+    href: "#home",
     current: true,
   },
   {
-    name: 'About',
-    href: '#about',
+    name: "Solutions",
+    href: "#solutions",
     current: false,
   },
   {
-    name: 'Services',
-    href: '#services',
+    name: "Partners",
+    href: "#partners",
     current: false,
   },
   {
-    name: 'Contact',
-    href: '#contact',
+    name: "Contact",
+    href: "#contact",
     current: false,
   },
-]
+];

@@ -1,3 +1,4 @@
+import Main from "../components/Templates/Main";
 import Navbar from "../components/Organisms/Navbar";
 import Contact from "../components/Templates/Contact";
 import Footer from "../components/Templates/Footer";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
+      <Main />
       <Solutions />
       <Partners />
       <Contact />

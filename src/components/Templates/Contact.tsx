@@ -7,8 +7,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-slate-100 ">
-      <div className="container mx-auto p-16 space-y-10">
+    <div id="contact" className="bg-slate-100 ">
+      <div className="container mx-auto p-16 space-y-10 md:px-56">
         <Text className="text-center" size="title">
           Ready to Transform your growth
         </Text>
@@ -19,7 +19,7 @@ export default function Contact() {
         </Text>
 
         <form onSubmit={handleSubmit}>
-          <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+          <div className="grid gap-3 grid-cols-1 mb-16 md:grid-cols-2">
             <div className="space-y-4">
               <Text size="md">Name</Text>
               <input type="text" className="w-full border-2 border-gray-200 rounded-md p-2" />
@@ -41,7 +41,11 @@ export default function Contact() {
             </div>
           </div>
 
-          <Button type="submit">Submit</Button>
+          <div className="text-center">
+            <Button size="lg" rounded type="submit">
+              Send message
+            </Button>
+          </div>
         </form>
       </div>
     </div>
